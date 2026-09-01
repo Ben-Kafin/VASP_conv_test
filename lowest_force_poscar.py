@@ -183,7 +183,7 @@ def write_poscar(ofile, lv, coord, atomtypes, atomnums, **args):
 
 if __name__=='__main__':
 
-    calc_dir = 'C:/Users/Benjamin Kafin/Documents/VASP/paired/short_b/geomeq'
+    calc_dir = 'C:dir'
     metric   = 'max'    #max, average, or sum
 
     outcar=os.path.join(calc_dir,'OUTCAR')
