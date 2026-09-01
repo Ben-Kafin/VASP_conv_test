@@ -448,7 +448,7 @@ def parse_poscar(ifile):
         return latticevectors, coord, atomtypes, atomnums
 
 if __name__=='__main__':
-    default_dir =  r'C:/Users/Benjamin Kafin/Documents/VASP/paired/short_b/fcc'
+    default_dir =  r'C:/dir'
     # These set the initial defaults
     outcar = os.path.join(default_dir, 'OUTCAR')
     poscar = os.path.join(default_dir, 'POSCAR')
