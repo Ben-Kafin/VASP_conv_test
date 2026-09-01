@@ -200,7 +200,7 @@ def parse_poscar(ifile):
 if __name__=='__main__':
 
     # REPLACE THE PATH BELOW with your actual data directory
-    default_dir = r'C:/Users/Benjamin Kafin/Documents/VASP/paired/short_b/fcc'
+    default_dir = r'dir'
     
     # These set the initial defaults
     outcar = os.path.join(default_dir, 'OUTCAR')
